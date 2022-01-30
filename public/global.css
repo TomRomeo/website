@@ -1,3 +1,6 @@
+:root {
+	--main-color: #E3B505;
+}
 html, body {
 	position: relative;
 	width: 100%;
