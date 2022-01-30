@@ -1,6 +1,7 @@
 <script lang="ts">
 	import GithubActivity from "./components/elements/GithubActivity.svelte";
-import Navbar from "./components/elements/Navbar.svelte";
+	import Navbar from "./components/elements/Navbar.svelte";
+	import Whoami from "./components/elements/Whoami.svelte";
 </script>
 
 <main>
@@ -21,6 +22,9 @@ import Navbar from "./components/elements/Navbar.svelte";
 	</section>
 	<section id="githubActivitySection">
 		<GithubActivity />
+	</section>
+	<section id="whoamiSection">
+		<Whoami />
 	</section>
 </main>
 
@@ -54,5 +58,9 @@ import Navbar from "./components/elements/Navbar.svelte";
 	#githubActivitySection {
 		display: flex;
 		justify-content: center;
+		margin-bottom: 10vh;
+	}
+	#whoamiSection {
+		min-height: 100vh;
 	}
 </style>
