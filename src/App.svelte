@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Contact from "./components/elements/Contact.svelte";
 	import GithubActivity from "./components/elements/GithubActivity.svelte";
 	import Navbar from "./components/elements/Navbar.svelte";
 	import Whoami from "./components/elements/Whoami.svelte";
@@ -25,6 +26,9 @@
 	</section>
 	<section id="whoamiSection">
 		<Whoami />
+	</section>
+	<section id="contactSection">
+		<Contact />
 	</section>
 </main>
 
