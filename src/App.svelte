@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Navbar from "./components/elements/Navbar.svelte";
+	import GithubActivity from "./components/elements/GithubActivity.svelte";
+import Navbar from "./components/elements/Navbar.svelte";
 </script>
 
 <main>
@@ -17,6 +18,9 @@
 			</p>
 			<p id="konnichiha">こんにちは ！</p>
 		</div>
+	</section>
+	<section id="githubActivitySection">
+		<GithubActivity />
 	</section>
 </main>
 
@@ -46,5 +50,9 @@
 				font-weight: bold;
 			}
 		}
+	}
+	#githubActivitySection {
+		display: flex;
+		justify-content: center;
 	}
 </style>
