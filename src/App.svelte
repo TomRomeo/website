@@ -38,7 +38,9 @@
 <style lang="scss">
 	#homeContainer {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
+		justify-content: center;
 		padding: 10vw;
 		gap: 5rem;
 

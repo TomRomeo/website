@@ -53,6 +53,15 @@
 <style lang="scss">
     main {
         position: relative;
+        overflow: hidden;
+    }
+    @media (max-width: 420px) {
+        svg {
+            height: 200vh;
+        }
+        #content {
+            justify-content: center;
+        }
     }
     #content {
         position: absolute;
@@ -62,22 +71,26 @@
         right: 0;
 
         display: flex;
+        flex-wrap: wrap-reverse;
         justify-content: space-evenly;
         align-items: center;
         color: black;
 
         #whoamiParagraphs {
-            font-size: min(1.5vw, 1.5rem);
+            font-size: max(min(1.5vw, 1.5rem), 1rem);
             h2 {
                 font-family: 'Roboto Mono', monospace;
             }
             max-width: 50ch;
+            @media (max-width: 420px) {
+                padding: 1rem;
+            }
         }
         #activityDiv {
             display: flex;
             flex-direction: column;
             gap: 0.5rem;
-            max-height: min(20rem, 30em);
+            max-height: max(20rem, 30em);
             overflow-y: scroll;
 
             * {
@@ -98,7 +111,7 @@
                 min-height: 3rem;
                 padding: min(1em, 1rem);
                 border-radius: 0.3rem;
-                font-size: min(1.5vw, 1.2rem);
+                font-size: max(1.5vw, 1.2rem);
 
                 .activityTime {
                     color: rgba(255, 255, 255, 0.637);

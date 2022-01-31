@@ -94,10 +94,10 @@
                 ] = `${activity.payload.action} PR -> ${activity.repo.name}#${activity.payload.number}`;
                 formattedMessage[
                     "msg"
-                ] = `${activity.payload.pull_request.formattedMessage["title"]}`;
+                ] = `${activity.payload.pull_request.title}`;
 
                 formattedMessage["url"] =
-                    activity.payload.pull_request.html_formattedMessage["url"];
+                    activity.payload.pull_request.url;
 
                 break;
             case "PullRequestReviewEvent":

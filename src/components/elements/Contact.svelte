@@ -25,16 +25,31 @@
 </main>
 
 <style lang="scss">
+    @media (max-width: 420px) {
+        #letsGetInTouch {
+            padding: .5rem;
+
+            p {
+                margin-left: 0;
+            }
+        }
+    }
+
     main {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 10rem;
+        @media (min-width: 420px) {
+            gap: 10rem;
+        }
         min-height: 70vh;
 
         #letsGetInTouch {
             p {
-                margin-left: 1rem;
+                @media (min-width: 420px) {
+                    margin-left: 1rem;
+                }
             }
         }
 
