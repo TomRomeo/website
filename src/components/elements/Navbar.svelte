@@ -3,12 +3,15 @@
 </script>
 <nav>
     <a href="#homeContainer">Home</a>
-    <a href="#contactContainer">Contact</a>
+    <a href="#contactSection">Contact</a>
 </nav>
 
 <style lang="scss">
 
     nav {
+        position: fixed;
+        width: 100%;
+        z-index: 5;
         background-color: #212121;
         display: flex;
         font-size: 1.5rem;
