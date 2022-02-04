@@ -43,6 +43,7 @@
     main {
         position: relative;
         overflow: hidden;
+        background-color: #E3B505;
     }
     @media (max-width: 420px) {
         #content {
@@ -51,16 +52,16 @@
     }
     #content {
         padding: 10vh 0;
-        background-color: #E3B505;
 
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: space-evenly;
-        align-items: center;
         color: black;
+        margin: auto;
+        max-width: 120ch;
 
         #whoamiParagraphs {
-            font-size: max(min(1.5vw, 1.5rem), 1rem);
+            font-size: max(min(1.2vw, 1.5rem), 1rem);
             h2 {
                 font-family: 'Roboto Mono', monospace;
             }
@@ -94,7 +95,7 @@
                 min-height: 3rem;
                 padding: min(1em, 1rem);
                 border-radius: 0.3rem;
-                font-size: max(1.5vw, 1.2rem);
+                font-size: max(.5vw, 1rem);
 
                 .activityTime {
                     color: rgba(255, 255, 255, 0.637);
