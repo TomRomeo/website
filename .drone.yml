@@ -13,21 +13,12 @@ steps:
     - docker stop website
     - docker rm website
     - docker rmi website
-- name: prepare working directory
-  commands:
-    - git -C $WORKINGDIR pull pull main
-  environment:
-    WORKINGDIR:
-      from_secret: workingDir
 - name: deploy new docker image
   commands:
-    - docker build -t website $WORKINGDIR
+    - docker build -t website .
     - docker run -d --name website -p 127.0.0.1:5000:5000 website
-  environment:
-    WORKINGDIR:
-      from_secret: workingDir
 ---
 kind: signature
-hmac: 3e1f325fdbfb3f1b4a7d6e153ba7672bb5a48752e5e8c333d09883864475d9c9
+hmac: 4c8c78a78f9e5f79428e6769411ee5e8a9c05a740cdc8e02df8d59a96d52c63c
 
 ...
