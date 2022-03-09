@@ -277,6 +277,9 @@
             }
             .activityMsg {
                 margin-top: 0.5rem;
+
+                max-width: 45ch;
+                overflow-wrap: break-word;
             }
 
             &:hover {
