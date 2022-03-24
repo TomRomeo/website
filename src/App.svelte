@@ -3,7 +3,39 @@
 	import GithubActivity from "./components/elements/GithubActivity.svelte";
 	import Navbar from "./components/elements/Navbar.svelte";
 	import Whoami from "./components/elements/Whoami.svelte";
+    import SvelteSeo from "svelte-seo";
 </script>
+
+<!-- Seo -->
+<SvelteSeo
+  title="Tom Doil"
+  description="Website of Tom Doil"
+  keywords="website tom doil programming cv"
+  canonical="https://trd.moe"
+  openGraph={{
+    title: 'Tom Doil',
+          description: 'Website of Tom Doil',
+          url: 'https://trd.moe',
+          type: 'website',
+          images: [
+              {
+                  url: 'https://media-exp1.licdn.com/dms/image/C4E03AQHPQ1Qqbw0k0A/profile-displayphoto-shrink_200_200/0/1638398403357?e=1649289600&v=beta&t=fUfnDMwZo6emRwzlgDNAcYwHwuGL5mKJ3KJV4zddPwU',
+                  width: 200,
+                  height: 200,
+                  alt: 'Image of Tom'
+              }
+          ]
+
+
+  }}
+  twitter={{
+    title: "Tom Doil",
+    description: "Website of Tom Doil",
+    image: "https://media-exp1.licdn.com/dms/image/C4E03AQHPQ1Qqbw0k0A/profile-displayphoto-shrink_200_200/0/1638398403357?e=1649289600&v=beta&t=fUfnDMwZo6emRwzlgDNAcYwHwuGL5mKJ3KJV4zddPwU",
+    imageAlt: "Image of Tom",
+  }}
+/>
+
 
 <main>
 	<Navbar />
