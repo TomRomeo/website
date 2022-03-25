@@ -19,6 +19,6 @@ steps:
     - docker run -d --name website -p 127.0.0.1:5000:5000 website
 ---
 kind: signature
-hmac: 4c8c78a78f9e5f79428e6769411ee5e8a9c05a740cdc8e02df8d59a96d52c63c
+hmac: 1bbc0e484c727f390b09ceec88765b929677760dd7cfdd40ab5a31b68ca5e630
 
 ...
