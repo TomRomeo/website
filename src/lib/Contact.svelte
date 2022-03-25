@@ -13,13 +13,13 @@
     </div>
     <div id="imageWrapper">
         <a href="https://github.com/TomRomeo" target="_blank"
-            ><img src="/assets/Github_icon.svg" alt="github icon" /></a
+        ><img src="/icons/Github_icon.svg" alt="github icon" /></a
         >
         <a href="https://www.linkedin.com/in/tom-doil-663185227" target="_blank"
-            ><img src="/assets/LinkedIn_icon.svg" alt="linkedIn icon" /></a
+            ><img src="/icons/LinkedIn_icon.svg" alt="linkedIn icon" /></a
         >
         <a href="mailto:Tom.Romeo.Doil@gmail.com" target="_blank"
-            ><img src="/assets/email_icon.svg" alt="email icon" /></a
+            ><img src="/icons/email_icon.svg" alt="email icon" /></a
         >
     </div>
 </main>
