@@ -191,7 +191,7 @@
 
 <main>
     <h2>Take a look at my recent activity:</h2>
-    <img class="icon" src="/assets/Github_icon.svg" alt="Github icon" />
+    <img class="icon" src="/icons/Github_icon.svg" alt="Github icon" />
     <div id="githubActivityWrapper" class="activityWrapper">
         <div id="githubActivityCornerBox" class="activityCornerBox">
             {#each formattedActivities as activity}

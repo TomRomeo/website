@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Contact from "./components/elements/Contact.svelte";
-	import GithubActivity from "./components/elements/GithubActivity.svelte";
-	import Navbar from "./components/elements/Navbar.svelte";
-	import Whoami from "./components/elements/Whoami.svelte";
+	import Contact from "$lib/Contact.svelte";
+	import GithubActivity from "$lib/GithubActivity.svelte";
+	import Navbar from "$lib/Navbar.svelte";
+	import Whoami from "$lib/Whoami.svelte";
     import SvelteSeo from "svelte-seo";
 </script>
 
