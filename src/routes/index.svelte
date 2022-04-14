@@ -19,7 +19,7 @@
           type: 'website',
           images: [
               {
-                  url: 'https://media-exp1.licdn.com/dms/image/C4E03AQHPQ1Qqbw0k0A/profile-displayphoto-shrink_200_200/0/1638398403357?e=1649289600&v=beta&t=fUfnDMwZo6emRwzlgDNAcYwHwuGL5mKJ3KJV4zddPwU',
+                  url: '/pfp.jpeg',
                   width: 200,
                   height: 200,
                   alt: 'Image of Tom'
@@ -31,7 +31,7 @@
   twitter={{
     title: "Tom Doil",
     description: "Website of Tom Doil",
-    image: "https://media-exp1.licdn.com/dms/image/C4E03AQHPQ1Qqbw0k0A/profile-displayphoto-shrink_200_200/0/1638398403357?e=1649289600&v=beta&t=fUfnDMwZo6emRwzlgDNAcYwHwuGL5mKJ3KJV4zddPwU",
+    image: "/pfp.jpeg",
     imageAlt: "Image of Tom",
   }}
 />
@@ -42,7 +42,7 @@
 	<section id="homeContainer">
 		<div id="pfpWrapper">
 			<img
-				src="https://media-exp1.licdn.com/dms/image/C4E03AQHPQ1Qqbw0k0A/profile-displayphoto-shrink_200_200/0/1638398403357?e=1649289600&v=beta&t=fUfnDMwZo6emRwzlgDNAcYwHwuGL5mKJ3KJV4zddPwU"
+				src="/pfp.jpeg"
 				alt="profilepicture"
 			/>
 			<div id="pfpBorder" />
